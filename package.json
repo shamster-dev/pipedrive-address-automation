@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "nexus": "ngrok http 3000 --url=https://deacon-defy-doorpost.ngrok-free.dev"
   },
   "dependencies": {
     "next": "16.3.3",
