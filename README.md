@@ -13,7 +13,13 @@ A Next JS automation service that listens to dispatched PipeDrive WebHooks, proc
 ## Env
 
 ```env
-PORT=3000
-PIPEDRIVE_API_TOKEN=your_pipedrive_api_token_here
-PIPEDRIVE_COMPANY_DOMAIN=your_company_domain
-PROPERTY_API_KEY=your_property_data_api_key_here
+CHIMNIE_API_KEY = ""
+
+PIPEDRIVE_API_KEY = ""
+PIPEDRIVE_HOST = ""
+
+REDIS_URL = ""
+
+WEBHOOK_USERNAME = ""
+WEBHOOK_PASSWORD = ""
+```
